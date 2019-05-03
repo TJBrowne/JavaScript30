@@ -2,7 +2,7 @@ html {
     background: red url(https://cdn.pixabay.com/photo/2016/01/06/10/33/bokeh-1123838_1280.jpg);
     background-size: cover;
     font-family: 'helvetica neue';
-    text-align: center;
+    /* text-align: center; */
     font-size: 10px;
 }
 
@@ -13,6 +13,14 @@ body {
     flex: 1;
     min-height: 100vh;
     align-items: center;
+}
+
+.title-position {
+    font-family: 'helvetica neue'; 
+    font-weight: 700px;
+    font-size: 65px;
+    margin: 80px;
+    padding-bottom: 500px;
 }
 
 .clock {
@@ -42,7 +50,7 @@ body {
     width: 50%;
     height: 6px;
     background: goldenrod;
-    box-shadow: 0 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 0 5px rgba(0,0,0,1);
     position: absolute;
     top: 50%;
     transform-origin: 100%;
